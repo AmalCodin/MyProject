@@ -23,3 +23,21 @@ const talk = function(name){
 }
 
 talk('Amal')
+
+//two parameters
+
+const timeday = function(time, day){
+    console.log(`It is lovely in ${time} have an awesome ${day} pal`)
+}
+
+timeday('2 o clock', 'Friday')
+
+
+//function to calculate the area
+
+const CalcArea = function(radius){{
+    let area = 3.14 * radius**2;
+    console.log(area)
+}}
+
+CalcArea(14)
